@@ -7,6 +7,9 @@
 .b{
   background-color:  rgba(240, 147, 251, 1) !important;
 }
+.mq:hover{
+  background-color: green !important;
+}
 @media only screen and (min-width: 600px){
 .br{
   border-radius: 25px !important;

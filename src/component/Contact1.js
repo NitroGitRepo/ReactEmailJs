@@ -30,14 +30,14 @@ export default function Contact1() {
               <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
                 {/* <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register Here</p> */}
-                <h3 class=" pb-2 text-center mb-5 mx-1 mx-md-4 mt-4"><i class="fa-brands fa-react fa-spin text-primary"></i> Registration Form</h3>
+                <h3 class=" pb-2 text-center mb-5 mx-1 mx-md-4 mt-4"><i class="fa-brands fa-react fa-spin text-primary"></i> Registration Form </h3>
 
                 <form ref={form} onSubmit = {sendEmail} class="mx-1 mx-md-4">
 
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-user fa-lg me-3 mb-4 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="text" id="form3Example1c" name = "user_name" class="form-control" />
+                      <input type="text" id="form3Example1c" name = "user_name" class="form-control" required />
                       <label class="form-label" for="form3Example1c">Your Name</label>
                     </div>
                   </div>
@@ -45,7 +45,7 @@ export default function Contact1() {
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 mb-4 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="email" id="form3Example3c" name = "user_email" class="form-control" />
+                      <input type="email" id="form3Example3c" name = "user_email" class="form-control" required />
                       <label class="form-label" for="form3Example3c">Your Email</label>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ export default function Contact1() {
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-lock fa-lg me-3 mb-4 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" id="form3Example4c" name = "user_password" class="form-control" />
+                      <input type="password" id="form3Example4c" name = "user_password" class="form-control" required />
                       <label class="form-label" for="form3Example4c">Password</label>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ export default function Contact1() {
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-key fa-lg me-3 mb-4 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" id="form3Example4cd" class="form-control" />
+                      <input type="password" id="form3Example4cd" class="form-control"  required/>
                       <label class="form-label" for="form3Example4cd">Repeat your password</label>
                     </div>
                   </div>
