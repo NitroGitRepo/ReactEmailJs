@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ReactEmailJs/static/css/main.6877f874.css",
-    "main.js": "/ReactEmailJs/static/js/main.474e3c7b.js",
+    "main.css": "/ReactEmailJs/static/css/main.92c291eb.css",
+    "main.js": "/ReactEmailJs/static/js/main.a8836355.js",
     "index.html": "/ReactEmailJs/index.html",
-    "main.6877f874.css.map": "/ReactEmailJs/static/css/main.6877f874.css.map",
-    "main.474e3c7b.js.map": "/ReactEmailJs/static/js/main.474e3c7b.js.map"
+    "main.92c291eb.css.map": "/ReactEmailJs/static/css/main.92c291eb.css.map",
+    "main.a8836355.js.map": "/ReactEmailJs/static/js/main.a8836355.js.map"
   },
   "entrypoints": [
-    "static/css/main.6877f874.css",
-    "static/js/main.474e3c7b.js"
+    "static/css/main.92c291eb.css",
+    "static/js/main.a8836355.js"
   ]
 }
